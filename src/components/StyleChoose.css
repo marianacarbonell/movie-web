@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+
+.question{
+    color:white;
+}
+
+.firstButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.secondButtons{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+}
+
+button{
+    width: 30% !important;
+}
+
+
+
+
+@media (max-width: 480px){
+
+    .question{
+      font-size: 10px !important;
+    }
+.container{
+    width: 50%;
+}
+}
