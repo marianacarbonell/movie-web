@@ -2,36 +2,45 @@ body{
     background-color: black;
 }
 
-.question{
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+.question h1{
+    font-size: 40px;
     color:white;
+    margin-bottom: 10px;
 }
 
-.firstButtons {
+.firstButton{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
 }
-.secondButtons{
+
+
+.secondButton{
     display: flex;
     flex-direction: column;
-    align-content: space-between;
-    justify-content: center;
 }
 
-button{
-    width: 30% !important;
+.btn{
+    margin: 10px;
 }
-
-
 
 
 @media (max-width: 480px){
 
-    .question{
-      font-size: 10px !important;
+    .question h1{
+      font-size: 30px;
     }
-.container{
-    width: 50%;
 }
+
+@media (min-width:768px){
+
+    .question h1{
+      font-size: 40px;
+    }
 }
