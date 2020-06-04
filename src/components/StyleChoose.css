@@ -15,20 +15,20 @@ body{
     margin-bottom: 10px;
 }
 
-.firstButton{
-    display: flex;
-    flex-direction: column;
+.firstButton, .secondButton{
+    width: 50%;
+    padding: 10px;
 }
 
-
-.secondButton{
-    display: flex;
-    flex-direction: column;
-}
-
-.btn{
+.btn { 
+    width: 100%;
     margin: 10px;
 }
+
+/* .btn{
+    margin: 10px;
+
+} */
 
 
 @media (max-width: 480px){
